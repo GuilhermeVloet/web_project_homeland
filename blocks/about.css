@@ -50,5 +50,12 @@
   color: #ffffff;
 }
 
-.about__grid {
+.gallery {
+  max-width: 1184px;
+  max-height: 442px;
+}
+
+.gallery__image {
+  max-width: 284px;
+  max-height: 213px;
 }
