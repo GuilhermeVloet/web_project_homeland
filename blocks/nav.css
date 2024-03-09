@@ -28,6 +28,7 @@
 }
 
 .nav__image {
+  background: rgba(0, 0, 0, 0.4);
   width: 984px;
   height: 615px;
 }

@@ -53,9 +53,11 @@
 .gallery {
   max-width: 1184px;
   max-height: 442px;
+  display: grid;
+  grid-template-columns: 284px 284px 284px 284px;
+  grid-template-rows: 213px 213px;
+  grid-gap: 10px;
 }
 
 .gallery__image {
-  max-width: 284px;
-  max-height: 213px;
 }
