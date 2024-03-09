@@ -1,0 +1,65 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__content {
+  width: 1184px;
+  height: 740px;
+  background-image: url(../images/Visite-Nos__background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__content-item {
+  width: 656px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.footer__content-title {
+  margin: 0;
+  width: 659px;
+  height: 76px;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+}
+
+.footer__content-subtitle {
+  width: 280px;
+  height: 66px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.footer__content-button {
+  width: 191px;
+  height: 48px;
+  padding: 13px, 20px, 13px, 20px;
+  border-radius: 4px;
+  gap: 10px;
+  color: #ffffff;
+  background-color: #0278fe;
+  border: none;
+  cursor: pointer;
+}
+
+.footer__copyright {
+  width: 166px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
