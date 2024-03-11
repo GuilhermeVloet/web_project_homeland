@@ -60,8 +60,4 @@
     grid-template-rows: 216px 216px 216px 216px 216px 216px 216px 216px;
     grid-gap: 12px;
   }
-
-  .gallery__image {
-    width: 100%;
-  }
 }
