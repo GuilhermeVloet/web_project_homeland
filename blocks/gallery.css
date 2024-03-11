@@ -30,7 +30,7 @@
   }
 
   .content__gallery {
-    width: 100%;
+    width: 720px;
     display: grid;
     grid-template-columns: 352px 352px;
     grid-template-rows: 264px 264px 264px 264px;
