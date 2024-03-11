@@ -8,7 +8,7 @@
   height: 4174px;
 }
 
-/* .place__items {
+.place__items {
   list-style: none;
 }
 
@@ -79,4 +79,4 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-} */
+}
