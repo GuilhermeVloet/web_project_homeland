@@ -67,3 +67,39 @@
     height: auto;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .nav {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__title {
+    margin: 48.94px 0 0;
+    width: 288px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .nav__description {
+    margin: 16px 0 0;
+    width: 288px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .nav__image {
+    margin: 40px 0 0;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: auto;
+  }
+}
