@@ -93,4 +93,16 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .footer__copyright {
+    margin: 88px 0 24px 0;
+    width: 166px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+  }
 }
