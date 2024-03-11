@@ -14,19 +14,30 @@
   grid-gap: 16px;
 }
 
+.gallery__image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 768px) {
   .gallery {
     margin-top: 90px;
-    width: 100%;
+    width: 768px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .content__gallery {
-    width: 768px;
-    grid-template-columns: 284px 284px;
-    grid-template-rows: 213px 213px 213px 213px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 352px 352px;
+    grid-template-rows: 264px 264px 264px 264px;
     grid-gap: 16px;
+  }
+
+  .gallery__image {
+    width: 100%;
   }
 }
