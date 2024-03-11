@@ -6,7 +6,7 @@
 }
 
 .footer__image {
-  background-color: #2a2c2f;
+  background-color: #2a2c2f 0.3;
   opacity: 0.3;
   background-size: cover;
   background-position: center;
@@ -14,6 +14,9 @@
 }
 
 .footer__content {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   flex-direction: column;
