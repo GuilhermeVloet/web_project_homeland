@@ -19,11 +19,19 @@
   }
 }
 
-/* Conteudo de Responsivo 320px */
-/* @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
   .header__logo {
     margin: 20.29px 0 0;
-    width: 254px;
-    height: 70px;
+    width: 188.69px;
+    height: 20.29px;
   }
-} */
+}
+
+/* Conteudo de Responsivo 320px */
+@media only screen and (max-width: 320px) {
+  .header__logo {
+    margin: 20.29px 0 0;
+    width: 188.69px;
+    height: 20.29px;
+  }
+}
