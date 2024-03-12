@@ -78,6 +78,15 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .nav {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* Conteudo de Responsivo 320px */
 /* @media only screen and (max-width: 320px) {
   .nav {
