@@ -30,9 +30,9 @@
   }
 
   .content__gallery {
-    width: 960px;
+    width: 984px;
     display: grid;
-    grid-template-columns: 480px 480px;
+    grid-template-columns: 485px 485px;
     grid-template-rows: 360px 360px 360px;
     grid-gap: 16px;
   }
