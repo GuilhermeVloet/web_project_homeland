@@ -133,7 +133,7 @@
 }
 
 /* Conteudo de Responsivo 550px */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 480px) {
   .about__content {
     margin: 0;
     max-width: 425px;

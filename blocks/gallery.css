@@ -88,6 +88,29 @@
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .gallery {
+    margin-top: 50px;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__gallery {
+    width: 425px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 425px;
+    grid-template-rows: 330px 330px 330px 330px 330px 330px 330px 330px;
+    grid-gap: 10px;
+  }
+
+  .gallery__image {
+    width: 100%;
+  }
+}
+
 /* Conteudo de Responsivo 320px */
 @media only screen and (max-width: 320px) {
   .gallery {
