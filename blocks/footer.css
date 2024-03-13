@@ -98,7 +98,7 @@
   .footer__content {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url(../images/Visite-Nos__background.png);
-    padding: 246px 156px;
+    padding: 246px 185px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@
   .footer__content {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url(../images/Visite-Nos__background.png);
-    padding: 246px 30px;
+    padding: 246px 32px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
