@@ -16,6 +16,7 @@
 }
 
 .gallery__image {
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,6 +31,7 @@
   .content__gallery {
     width: 984px;
     grid-template-columns: 485px 485px;
+    grid-template-rows: 360px 360px;
   }
 }
 
