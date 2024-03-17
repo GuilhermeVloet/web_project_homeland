@@ -10,25 +10,15 @@
   height: 70px;
 }
 
-/* Conteudo de Responsivo 768pxpx */
-@media only screen and (max-width: 768px) {
-  .header__logo {
-    margin: 32px 0 0;
-    width: 254px;
-    height: 70px;
-  }
-}
-
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
   .header__logo {
     margin: 20.29px 0 0;
     width: 188.69px;
     height: 20.29px;
   }
-}
+} */
 
-/* Conteudo de Responsivo 320px */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 720px) {
   .header__logo {
     margin: 20.29px 0 0;
     width: 188.69px;

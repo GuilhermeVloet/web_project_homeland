@@ -42,123 +42,71 @@
   }
 }
 
-/* Conteudo de Responsivo 768px */
 @media only screen and (max-width: 768px) {
   .nav {
     width: 768px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .nav__title {
     margin: 96.11px 0 0;
-    width: 720px;
-    color: #ffffff;
-    font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
-    text-align: center;
   }
 
   .nav__description {
     margin: 32px 0 0;
-    width: 720px;
-    color: #ffffff;
-    font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
-    text-align: center;
   }
 
   .nav__image {
     margin: 36px 0 0;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: auto;
   }
 }
 
-/* Conteudo de Responsivo 720px */
 @media only screen and (max-width: 720px) {
   .nav {
-    max-width: 720px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* Conteudo de Responsivo 480px */
-@media only screen and (max-width: 550px) {
-  .nav {
-    max-width: 425px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
   }
 
   .nav__title {
     margin: 48.94px 0 0;
     width: 288px;
-    color: #ffffff;
-    font-weight: 900;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 44px;
-    text-align: center;
   }
 
   .nav__description {
     margin: 16px 0 0;
     width: 288px;
-    color: #ffffff;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
   }
 
   .nav__image {
     margin: 40px 0 0;
-    background: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: auto;
   }
 }
-
-/* Conteudo de Responsivo 320px */
+/* 
 @media only screen and (max-width: 320px) {
   .nav {
     width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .nav__title {
     margin: 48.94px 0 0;
     width: 288px;
-    color: #ffffff;
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
-    text-align: center;
   }
 
   .nav__description {
     margin: 16px 0 0;
     width: 288px;
-    color: #ffffff;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
   }
 
   .nav__image {
     margin: 40px 0 0;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: auto;
   }
-}
+} */
