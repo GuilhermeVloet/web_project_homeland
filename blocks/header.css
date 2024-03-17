@@ -6,22 +6,14 @@
 
 .header__logo {
   margin: 34px 0 0;
-  width: 254px;
-  height: 70px;
+  max-width: 254px;
+  width: 100%;
 }
-
-/* @media only screen and (max-width: 425px) {
-  .header__logo {
-    margin: 20.29px 0 0;
-    width: 188.69px;
-    height: 20.29px;
-  }
-} */
 
 @media only screen and (max-width: 720px) {
   .header__logo {
     margin: 20.29px 0 0;
-    width: 188.69px;
-    height: 20.29px;
-  }
+    max-width: 188.69px;
+    width: 100%;
+    }
 }
