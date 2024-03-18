@@ -55,7 +55,7 @@
 
   .content__gallery {
     width: 288px;
-    max-width: 100%;
     grid-template-columns: 288px;
   }
+
 }
