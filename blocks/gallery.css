@@ -56,6 +56,7 @@
   .content__gallery {
     width: 288px;
     grid-template-columns: 288px;
+    grid-template-rows: unset;
   }
 
 }
